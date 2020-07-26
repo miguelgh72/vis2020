@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Custom fonts for this template-->
+          <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+          <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+          <!-- Custom styles for this template-->
+          <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <style type="text/css">
+            
+            /* Para acomodar los checkboxes que tienen vertical-align: top */
+            .observablehq-viewof-selectedLocations input[type="checkbox"], .observablehq-viewof-gradientEnabled input[type="checkbox"] {
+                vertical-align: inherit !important;
+            }
+
+        </style>
+
+        <style type="text/css">
+            /* Estos son los estilos que están en la parte de abajo del observable */
+            .selected-node {
+                stroke: #000;
+                stroke-width: 3;
+            }
+        </style>
+    </head>
+    <body class="container">
+        <h1 class="h3 mb-0 text-gray-800">
+            UBA InfoViz 2020 - VAST mini challenge 3
+        </h1>
+
+        <p>
+
+        <div id="observablehq-e862416e" style="min-width: 720px;">
+
+            <div class="row">
+               <div class="col-xl-30 col-md- mb-4">
+                    <div class="card border-left-info shadow h-100 py-2">
+                        <div class="card-body">          
+                            <div class="observablehq-viewof-time"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                     <div class="col-xl-30 col-md- mb-4">
+                        <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card-body">  
+                                 <div class="observablehq-noadLoadLegend"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="col-xl-30 col-md- mb-4">
+                        <div class="card border-left-warning shadow h-100 py-2">
+                            <div class="card-body"> 
+                                <div class="observablehq-graphTrafficLegend"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">   
+                    <div class="col-xl-30 col-md- mb-4">
+                        <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card-body">                 
+                                <div class="observablehq-graphLoad"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="col-xl-30 col-md- mb-4">
+                        <div class="card border-left-warning shadow h-100 py-2">
+                            <div class="card-body"> 
+                                <div class="observablehq-graphTraffic"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="col-xl-30 col-md- mb-4">
+                        <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card-body"> 
+                                <div class="observablehq-gaugeTotalNetworkLoad"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="col-xl-30 col-md- mb-4">
+                        <div class="card border-left-warning shadow h-100 py-2">
+                            <div class="card-body"> 
+                                <div class="observablehq-gaugeNetworkLoadByFailType"></div>
+                            </div>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+
+
+            <div class="col-xl-30 col-md- mb-4">
+                <div class="card border-left-primary shadow h-100 py-2">
+                    <div class="card-body"> 
+                        <div class="row">
+                            <div class="col">
+                                <div class="observablehq-viewof-windowSize"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="observablehq-viewof-gradientEnabled"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="observablehq-linePlotLoadTotal"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-30 col-md- mb-4">
+                <div class="card border-left-primary shadow h-100 py-2">
+                    <div class="card-body">                         
+
+                        <div class="row">
+                            <div class="col">                    
+                                 <div class="observablehq-viewof-selectedLocations"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="observablehq-linePlotLegend"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="observablehq-linePlotLoadByLocation"></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="observablehq-updateSelectedNodes" style="display: none;"></div>
+        </div>
+        <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+            import define from "https://api.observablehq.com/@mc15/uba-infoviz-2020-vast-mini-challenge-3.js?v=3";
+            (new Runtime).module(define, name => {
+              if (name === "viewof time") return Inspector.into("#observablehq-e862416e .observablehq-viewof-time")();
+              if (name === "noadLoadLegend") return Inspector.into("#observablehq-e862416e .observablehq-noadLoadLegend")();
+              if (name === "graphLoad") return Inspector.into("#observablehq-e862416e .observablehq-graphLoad")();
+              if (name === "graphTrafficLegend") return Inspector.into("#observablehq-e862416e .observablehq-graphTrafficLegend")();
+              if (name === "graphTraffic") return Inspector.into("#observablehq-e862416e .observablehq-graphTraffic")();
+              if (name === "gaugeTotalNetworkLoad") return Inspector.into("#observablehq-e862416e .observablehq-gaugeTotalNetworkLoad")();
+              if (name === "gaugeNetworkLoadByFailType") return Inspector.into("#observablehq-e862416e .observablehq-gaugeNetworkLoadByFailType")();
+              if (name === "viewof windowSize") return Inspector.into("#observablehq-e862416e .observablehq-viewof-windowSize")();
+              if (name === "linePlotLoadTotal") return Inspector.into("#observablehq-e862416e .observablehq-linePlotLoadTotal")();
+              if (name === "viewof selectedLocations") return Inspector.into("#observablehq-e862416e .observablehq-viewof-selectedLocations")();
+              if (name === "linePlotLegend") return Inspector.into("#observablehq-e862416e .observablehq-linePlotLegend")();
+              if (name === "linePlotLoadByLocation") return Inspector.into("#observablehq-e862416e .observablehq-linePlotLoadByLocation")();
+
+              if (name === "viewof gradientEnabled") return Inspector.into("#observablehq-e862416e .observablehq-viewof-gradientEnabled")();
+              
+              if (name === "updateSelectedNodes") return Inspector.into("#observablehq-e862416e .observablehq-updateSelectedNodes")();
+            });
+        </script>
+  </body>
+</html>
